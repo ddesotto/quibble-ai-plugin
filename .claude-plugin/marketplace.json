@@ -1,0 +1,16 @@
+{
+  "name": "quibble",
+  "description": "Quibble for coding agents: read reviewers' comments on your web app, fix them, and reply.",
+  "owner": {
+    "name": "Quibble",
+    "url": "https://tryquibble.com"
+  },
+  "plugins": [
+    {
+      "name": "quibble",
+      "source": "./plugins/quibble",
+      "description": "Read the comments reviewers leave on your web app with Quibble, fix them, and reply.",
+      "skills": ["./skills/quibble-review"]
+    }
+  ]
+}

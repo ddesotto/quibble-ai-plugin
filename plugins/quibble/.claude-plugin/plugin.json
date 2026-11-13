@@ -1,0 +1,10 @@
+{
+  "name": "quibble",
+  "version": "0.1.0",
+  "description": "Read the comments reviewers leave on your web app with Quibble, fix them, and reply.",
+  "homepage": "https://tryquibble.com",
+  "repository": "https://github.com/ddesotto/quibble-ai-plugin",
+  "license": "MIT",
+  "author": { "name": "Quibble", "url": "https://tryquibble.com" },
+  "keywords": ["quibble", "review", "ui", "feedback", "mcp"]
+}
