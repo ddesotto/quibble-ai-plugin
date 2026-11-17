@@ -53,6 +53,7 @@ Ask in the repository of the app that was reviewed:
 | `list_projects` | Projects you can see; pass a URL to find the one for this app. |
 | `list_comments` | Open, resolved or all comments of a project, newest first. |
 | `get_comment` | One comment with its replies, evidence and screenshot. |
+| `get_comment_context` | The page activity recorded before a comment: console output, errors and network requests. |
 | `reply_to_comment` | Reply as you, labelled with the agent. |
 | `set_comment_status` | Resolve or reopen a comment. |
 
