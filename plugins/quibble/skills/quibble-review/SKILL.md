@@ -56,7 +56,10 @@ Make the smallest change that addresses the note, and verify it the way this
 repository verifies changes (tests, typecheck, or looking at the page). Then
 call `reply_to_comment` with a UUID `requestId` and a short reply in plain language: what you changed
 and where, for example "Raised the button contrast to AA in
-`checkout/pay-button.tsx`." Generate the request ID before sending and reuse it
+`checkout/pay-button.tsx`. PR: https://github.com/acme/shop/pull/42" Include
+where the reviewer can see the change: the pull request URL, the preview URL, or
+the commit (its URL, or its hash when there is none). If the change is not committed
+yet, say so. Generate the request ID before sending and reuse it
 if the response is lost or the call needs a retry. Reply once per comment.
 
 ## Resolving

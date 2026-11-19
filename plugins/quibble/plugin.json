@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "quibble",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Read the comments reviewers leave on your web app with Quibble, fix them, and reply.",
   "author": { "name": "Quibble", "url": "https://tryquibble.com" },
   "homepage": "https://tryquibble.com",
